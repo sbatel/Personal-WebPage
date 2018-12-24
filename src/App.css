@@ -1,0 +1,281 @@
+.demo-big-content{
+    text-align: center;
+    font-family: 'Special Elite', Courier, monospace;
+}
+
+.header-color {
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.landing-grid {
+    
+   /* background: white;   fallback for old browsers 
+    background: -webkit-linear-gradient(to left, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+   /* background: linear-gradient(to left, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("https://images.unsplash.com/photo-1471286274405-579f8d7132d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-size: 75%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.avatar-img {
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 50%;
+    padding-right: 50%;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    
+}
+
+.banner-text{
+
+   /* background-color: black;*/
+ 
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+.banner-text h1{
+    padding-top: 20%;
+    font-size:70px;
+    text-align: center;
+    font-family: 'Special Elite', Courier, monospace;
+    /*font-weight: bold;*/
+    color: black;
+}
+.banner-text h2{
+   
+    font-size:30px;
+    text-align: center;
+    font-family: 'Special Elite';
+    /*font-weight: bold;*/
+    color: black;
+}
+
+.banner-text hr{
+    border-top: 3px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+
+.banner-text p {
+   padding-top: 1em; 
+   padding-left: 1em; 
+   color: black;
+   
+   font-family: 'Special Elite';
+   width: 100%;
+   font-size: 20px;
+ 
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: auto;
+}
+.social-links i{
+    
+    color:black;
+    font-size: 4em;
+    padding: 8px;
+}
+
+.contact-body{
+    
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    background: url("https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size:70%;
+}
+
+.contact-grid{
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-grid h2{
+    font-family: 'Special Elite', Courier, monospace;
+    
+    
+}
+
+.contact-grid hr{
+    border-top: 5px dotted black;
+    width:50%;
+    margin: auto;
+}
+.contact-list i{
+    font-size: 50px;
+    padding-right: 5rem;  
+}
+
+
+.resume-right{
+   
+    color: black;
+}
+.resume-right h2{
+    font-family: 'Special Elite';
+    font-weight: bold; 
+    font-size: 30px;
+}
+
+
+.resume-left{
+    color: white;
+    text-align: center;
+    font-family: 'Special Elite';
+}
+.cv-pic{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 400px;
+    width: 280px;
+    border-radius: 50%;
+    border-color: black;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.cv-pic:hover {
+filter: none;
+-webkit-filter: grayscale(0%);
+}
+
+.resume-left p{
+    padding-top: 1%;
+    width:100%;
+    margin: auto;
+    padding-bottom: 1%;
+    font-family: 'Special Elite';
+    font-size: 20px; 
+}
+
+.resume-left h2{
+    font-family: 'Special Elite';
+    font-weight: bold; 
+}
+
+.resume-left h4{
+    font-family: 'Special Elite';
+    font-size: 30px; 
+    font-weight: bold;  
+}
+.resume-left h5{
+    font-family: 'Special Elite'; 
+    font-size: 20px; 
+}
+.all-grids{
+    font-family: 'Special Elite'; 
+    font-size: 20px; 
+
+}
+.all-grids h4{
+    font-family: 'Special Elite'; 
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: left; 
+}
+.all-grids p{
+    font-family: 'Special Elite'; 
+    font-size: 20px;
+    text-align: left;
+    width: 80%; 
+}
+.all-grids h5{
+    font-family: 'Special Elite'; 
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30%;
+    width: 60%; 
+}
+.logo-img{
+    padding-top: 10%;
+    height: 70px;
+    width: 170px
+}
+.logo1-img{
+    padding-top: 5%;
+    height: 120px;
+    width: 110px
+
+}
+
+
+
+
+.avatar1-img {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 450px;
+    width: 600px;
+    border-radius: 40%;
+    
+}
+.about-me-grid{
+    background: url("https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    background-size: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about-me-text{
+    padding-top: 5%;
+     opacity: .8;
+     width: 75%;
+     margin: auto;
+     border-radius: 10px;
+ }
+ .about-me-text h1{
+     padding-top: 20%;
+     font-size:60px;
+     text-align: center;
+     font-family: 'Special Elite', Courier, monospace;
+     font-weight: bold;
+     color: black;
+ }
+ .about-me-text h2{
+    
+     font-size:30px;
+     text-align: center;
+     font-family: 'Special Elite';
+     /*font-weight: bold;*/
+     color: black;
+ }
+
+ .about-me-text p {
+ 
+    color: black; 
+    font-family: 'Special Elite';
+    width: 100%;
+    font-size:25px;
+  
+ }
